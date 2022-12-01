@@ -1,0 +1,81 @@
+html {
+  margin: 0px !important;
+}
+body {
+  margin: 0px !important;
+  position: relative;
+}
+.ceu {
+  width: 100%;
+  position: absolute;
+  height: 600px;
+}
+ul {
+  list-style: none;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  background: rgba(17, 17, 17, 0.459);
+  color: rgb(238, 229, 231);
+  border-radius: 4px;
+  transition: 1s;
+}
+a:hover {
+  background: pink;
+  color: rgb(199, 103, 116);
+}
+.texto {
+  font-family: Calibri;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  color: rgb(238, 229, 231);
+  font-size: 18px;
+}
+.container-texto {
+  position: relative;
+  background: rgba(17, 17, 17, 0.459);
+  padding: 20px;
+  margin: 20px;
+}
+.foto {
+  margin: 15px;
+  width: 200px;
+  border-radius: 10px;
+}
+.container-foto {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  /* background: ; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  background: rgba(17, 17, 17, 0.459);
+  color: rgb(238, 229, 231);
+  padding: 15px;
+  display: block;
+  font-size: 18px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: Calibri;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+}
