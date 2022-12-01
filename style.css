@@ -32,7 +32,7 @@ a:hover {
   color: rgb(199, 103, 116);
 }
 .texto {
-  font-family: Calibri;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   width: 100%;
   text-align: center;
@@ -55,7 +55,6 @@ a:hover {
   position: relative;
   padding: 0px;
   margin: 0px;
-  /* background: ; */
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -72,7 +71,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  font-family: Calibri;
+  font-family: "Times New Roman", Times, serif;
 }
 
 nav {
